@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+            flex-direction: column;
+            text-align: center;
+            color: white !important;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            }
+
+            .top{
+            height: 65vh;
+            width:100vw;
+            background:radial-gradient(circle, rgb(255, 215, 10), rgb(15,15,15))
+            }
+
+            .bottom{
+                height: 35vh;
+                width: 100vw;
+                background:radial-gradient(circle, rgb(255, 215, 10), rgb(5,5,5))
+            }
+
+            .imageWrapper{
+                position: absolute;
+                margin-top: -70px;
+            }
+            img{
+                width: 600px;
+                -webkit-box-reflect:below 0 linear-gradient(transparent, rgb(255,255,255))
+            }
+
+            .underline {
+            width: 8rem;
+            height: 0.25rem;
+            background: white;
+            margin: 0 auto;
+          }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1 style="font-size:50px;">Your watches!</h1>
+        <div class="underline"></div>
+    </div>    
+    <div class="bottom"></div>
+    <div class="imageWrapper">
+        <img src="watches.png">
+    </div>
+</body>
+</html>
